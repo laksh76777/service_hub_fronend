@@ -9,6 +9,7 @@ export default defineConfig({
     tailwindcss()
   ],
   server: {
+    /*
     port: 5173,
     proxy: {
       '/api': {
@@ -16,6 +17,6 @@ export default defineConfig({
         changeOrigin: true,
         secure: false
       }
-    }
+    }*/
   }
 });
